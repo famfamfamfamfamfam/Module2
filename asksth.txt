@@ -1,0 +1,22 @@
+Coroutine tắt component và tắt obj
+
+
+
+OBJECT POOLING
+OBJECT POOL
+
+material draw call batches
+
+tris vertices
+tris(triangles)
+
+material ,draw call, batches, shader
+
+tối ưu: scripting, memory, graphic, build size
+
+đo hiệu năng: profiler, memory profiler
+debug: frame debugger
+
+maintain: bảo trì, phát triển
+
+UnityAction với Action

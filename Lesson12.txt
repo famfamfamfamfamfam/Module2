@@ -1,0 +1,8 @@
+itch io
+development build
+
+Khá nặng:
+ontriggerstay
+oncollisionstay
+
+data & config

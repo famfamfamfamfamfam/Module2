@@ -1,0 +1,75 @@
+shader graph/ ko phải code C#
+
+gpu instancing
+set pass call
+
+occlusion culling
+
+Cơ chế cấp phát bộ nhớ, nên dùng collection nào:
+arrray
+diction
+list
+
+
+
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class ExampleRender : MonoBehaviour
+{
+
+    public Renderer myRenderer;
+    Material temp;
+    // Start is called before the first frame update
+    void Start()
+    {
+        myRenderer = GetComponent<Renderer>();
+        //ChangeSharedMaterial();
+      //  ChangeRenderMaterial();
+    }
+
+
+    void ChangeSharedMaterial()
+    {
+        myRenderer.sharedMaterials[0].color = Color.green;
+    }
+    void ChangeRenderMaterial()
+    {
+        temp = myRenderer.sharedMaterials[0];
+        myRenderer.materials[0].color = Color.green;
+        Debug.Log("shared material color " +  myRenderer.sharedMaterials[0].color);
+        myRenderer.sharedMaterials[0].color = Color.blue;
+    }
+
+    /// <summary>
+    /// on press key N
+    /// </summary>
+    void DestroyMaterial()
+    {
+        Destroy(myRenderer.materials[0]);
+        myRenderer.materials = new Material[0];
+        myRenderer.sharedMaterials = new Material[] { temp};
+        myRenderer.materials = new Material[]{ temp };
+        
+
+       
+
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.M))
+        {
+            ChangeRenderMaterial();
+        }
+        if (Input.GetKeyDown(KeyCode.N))
+        {
+            DestroyMaterial();
+        }
+    }
+}
+
+
+class diagram

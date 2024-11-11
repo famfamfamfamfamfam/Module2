@@ -1,0 +1,10 @@
+enum state
+switch case
+state machine
+
+https://mracipayam.medium.com/introduction-to-the-unity-state-machine-pattern-ad3bce7d987c
+
+
+build device android
+texture compression
+resouces

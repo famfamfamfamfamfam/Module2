@@ -1,0 +1,14 @@
+newtonsoft.json
+
+
+https://jsoneditoronline.org/
+
+mongo
+bson
+json
+
+
+scriptable object
+
+
+COMPOSITION OVER INHERITANCE

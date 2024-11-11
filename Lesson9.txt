@@ -1,0 +1,23 @@
+thread
+async
+coroutine
+
+https://toidicodedao.com/
+https://toidicodedao.com/tag/async/
+https://toidicodedao.com/2015/02/05/callback-trong-javascript/
+
+callback hell
+
+coroutine
+async
+await
+callback
+loadsceneasync
+dontdestroyonload
+
+// tránh việc phải edit chỉnh sửa các object trong scene lặp lại  nhiều lần => khó maintain 
+        // chủ động quản lý tài nguyên : bộ nhớ
+        //tăng hiệu suất game 
+
+        //gameplay 1 scene rieng prefab level1 / destroy insta  
+        //menu 1 scene rieng

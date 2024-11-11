@@ -1,0 +1,21 @@
+Game em có 2 phase, phase đầu tiên là bắn súng, chuyển qa chuyển lại góc nhìn, mới vào là có sẵn 100 đạn, hết đạn là phải chuyển về để lựm thêm đạn, một con trèo tới nơi là sẽ bị thua
+
+phase 2 là đánh con trùm, cũng lựm để thêm lượt chém các kiểu, duwowis laf code thooi an
+
+Mấy cục đỏ là năng lượng kỹ năng đặc biệt, kiểu trong phase 2 bật nó mới trừ máu đáng kể, em định v nhưng mà hiện tại em để một lượt chém trừ cũng kha khá nên có thể ko cần lắm
+
+
+
+
+Xong r aayas 
+
+
+Để quản lý thì em có 3 lớp
+1 lớp để quản lý các phương thức mà các lớp cần giao tiếp với nhau, có thể truy cập ở mọi nơi
+
+1 lớp để quản lý tất cả các thông số chung và nhận input để kích hoạt kỹ năng đặc biệt, có thể truy cập ở mọi nơi
+
+còn 1 lớp là chỉ sử dụng trong phase 1, nhận input để chuyển chế độ góc nhìn và tự hủy sau 60 giây
+
+
+

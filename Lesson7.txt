@@ -1,0 +1,5 @@
+mixamo.com
+https://www.mixamo.com/
+
+spine unity 2d asset
+https://docs.unity3d.com/Manual/android-BuildProcess.html

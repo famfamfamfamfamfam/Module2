@@ -1,0 +1,6 @@
+scriptable object
+
+GameObject.find
+getcomponent
+findobjectoftype
+getcomponentinchildrent, parent

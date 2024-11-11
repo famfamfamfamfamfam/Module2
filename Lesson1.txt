@@ -1,0 +1,19 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.Timeline;
+
+public class MoveObject : MonoBehaviour
+{
+    public Rigidbody myRigidbody;
+    // Start is called before the first frame update
+    void Start()
+    {
+        myRigidbody = GetComponent<Rigidbody>();
+        myRigidbody.velocity = new Vector3(10, 10, 0);
+        Debug.Log("TOI LA HOANG");
+        Debug.LogWarning("warning TOI");
+    }
+
+    // Update is called once per frame
+    void Updat

@@ -1,0 +1,17 @@
+Các cách ref GameObject
+instance nếu duy nhất: đây là gắn cứng
+kéo thả refrence: đây là gắn cứng
+dùng event listener
+findobject(s) of type: cách tệ
+get component
+
+https://learn.microsoft.com/en-us/dotnet/standard/events/
+
+https://www.youtube.com/watch?v=fsImNxsEUto
+
+Plugin thay cho animation event
+unity simple animation proxy script
+
+Gắn lỏng, linh hoạt, dễ tái sử dụng, dễ mở rộng proj:
+interface
+event

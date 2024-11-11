@@ -1,0 +1,11 @@
+detect
+attackrange
+
+patrol
+chase
+attack
+
+State machine
+
+https://gamedevbeginner.com/state-machines-in-unity-how-and-when-to-use-them/
+https://mracipayam.medium.com/introduction-to-the-unity-state-machine-pattern-ad3bce7d987c
